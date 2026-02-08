@@ -1,0 +1,63 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body
+{
+    background: linear-gradient(to right, #ffffff, #878787);
+}
+.Kont
+{
+    font-size: 2.5rem;
+    margin-top: 60px;
+    text-align: center;
+}
+ul
+{
+    list-style: none;
+}
+.Dane
+{
+    max-width: 900px;
+    width: 80%;
+    margin: 120px auto 0 auto;
+    font-size: 2.2rem;
+    text-align: center;
+    
+}
+a
+{
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+ a:hover 
+{
+    color: #737373;
+}
+@media (max-width: 600px) 
+{
+    .Kont {
+        font-size: 2rem;
+        margin-top: 40px;
+    }
+
+    .Dane {
+        width: 95%;
+        font-size: 1.5rem;
+        margin: 60px auto 0 auto;
+        padding: 0;
+    }
+
+    .Dane li {
+        padding: 15px;
+        font-size: 1.2rem;
+    }
+}
+
+

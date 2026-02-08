@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #ffffff, #878787);
+}
+.Poz{
+    font-size: 2.5rem;
+    margin-top: 60px;
+    text-align: center;
+}
+.Umie h1 {
+    font-size: 2.5rem;
+    margin-top: 60px;
+    text-align: center;
+}
+.Um {
+    max-width: 900px;
+    width: 80%;
+    margin: 40px auto;
+}
+.Um p {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.Um small {
+    display: block;
+    margin-top: 5px;
+    font-size: 1rem;
+    color: #333;
+}
+.Pas {
+    width: 100%;
+    height: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+.Wyp {
+    height: 100%;
+    background: #878787;
+    border-radius: 12px;
+    width: 0;
+    transition: width 1.2s ease-in-out;
+}
+.Um .Wyp {
+    width: inherit;
+}
+.Um:hover .Wyp {
+    background: #737373;
+}
+@media (max-width: 600px) {
+    .Umie h1 {
+        font-size: 2rem;
+        margin-top: 40px;
+    }
+
+    .Um p {
+        font-size: 1.2rem;
+    }
+
+    .Um small {
+        font-size: 0.9rem;
+    }
+}
