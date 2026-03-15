@@ -33,7 +33,7 @@ body
     transform: translateY(-3px);
     box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
-@media (max-width: 600px) 
+@media (max-width: 764px) 
 {
     .Poznaj h1 {
         font-size: 2rem;
@@ -42,5 +42,6 @@ body
     .Wpis {
         font-size: 1.2rem;
         padding: 0 15px;
+        margin-bottom: 80px;
     }
 }
