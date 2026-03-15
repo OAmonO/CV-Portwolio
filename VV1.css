@@ -67,26 +67,28 @@ body
     margin-top: 55px;
     flex-wrap: wrap;
 }
-footer 
+hr
 {
-    text-align: center;
-    padding: 20px;
-    background-color: #222;
-    color: white;
-    position: fixed;
-    padding-bottom: 30px;
-    bottom: 0;
-    width: 100%;
+    width: calc(100% + 40px);
+    margin-left: -20px;
+    margin-top: 80px;
+    color: #222;
 }
-
-footer a 
+p
 {
-  color: #2563eb;
+    margin-top: 30px;
+    text-align: left;
+    margin-left: -10px;
+    color: gray;
+}
+ a 
+{
+  color: gray;
   text-decoration: none;
-  margin: 0 8px;
+  margin-left: -10px;
 }
 
-footer a:hover 
+ a:hover 
 {
   text-decoration: underline;
 }
