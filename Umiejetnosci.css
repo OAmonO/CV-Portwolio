@@ -54,12 +54,15 @@ body {
 .Um:hover .Wyp {
     background: #737373;
 }
-@media (max-width: 600px) {
+@media (max-width: 764px) {
     .Umie h1 {
         font-size: 2rem;
         margin-top: 40px;
     }
-
+    .Umie
+    {
+        margin-bottom: 80px;
+    }
     .Um p {
         font-size: 1.2rem;
     }
