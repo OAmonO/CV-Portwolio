@@ -89,12 +89,13 @@ footer a:hover
 {
   text-decoration: underline;
 }
-@media (max-width: 600px) 
+@media (max-width: 768px) 
 {
-  main {
+  main 
+{
     min-height: auto;       
     padding: 40px 20px;
-  }
+}
 
   .Powitanie h1 {
     font-size: 2rem;
@@ -111,5 +112,10 @@ footer a:hover
 
   .Przycisk a {
     width: 100%;
+  }
+    footer {
+    position: static;
+    font-size: 0.9rem;
+    padding: 12px;
   }
 }   
